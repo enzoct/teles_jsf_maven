@@ -12,7 +12,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 import org.hibernate.annotations.ForeignKey;
-
+/** class city*/
 @Entity
 @Table(name="cidade")
 public class Cidade implements Serializable{
